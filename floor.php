@@ -9,15 +9,14 @@
     <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>User List - Vuexy - Bootstrap HTML admin template</title>
+    <title>Statistics Cards - Vuexy - Bootstrap HTML admin template</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/ag-grid/ag-grid.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/ag-grid/ag-theme-material.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
@@ -31,8 +30,7 @@
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/colors/palette-gradient.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-user.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/aggrid.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/card-analytics.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -288,13 +286,14 @@
     </ul>
     <!-- END: Header-->
 
-<!-- BEGIN: Main Menu-->
+
+    <!-- BEGIN: Main Menu-->
     <div class="main-menu menu-fixed menu-dark menu-accordion menu-shadow" data-scroll-to-active="true">
         <div class="navbar-header">
             <ul class="nav navbar-nav flex-row">
-                <li class="nav-item mr-auto"><a class="navbar-brand" href="#">
+                <li class="nav-item mr-auto"><a class="navbar-brand" href="html/ltr/vertical-menu-template-semi-dark/index.html">
                         <div class="brand-logo"></div>
-                        <h2 class="brand-text mb-0">Careit</h2>
+                        <h2 class="brand-text mb-0">Vuexy</h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary" data-ticon="icon-disc"></i></a></li>
             </ul>
@@ -335,125 +334,217 @@
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper">
-            <div class="content-header row">
-            </div>
             <div class="content-body">
-                <!-- users list start -->
-                <section class="users-list-wrapper">
-                    <!-- users filter start -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 class="card-title">Filters</h4>
-                            <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
-                            <div class="heading-elements">
-                                <ul class="list-inline mb-0">
-                                    <li><a data-action="collapse"><i class="feather icon-chevron-down"></i></a></li>
-                                    <li><a data-action=""><i class="feather icon-rotate-cw users-data-filter"></i></a></li>
-                                    <li><a data-action="close"><i class="feather icon-x"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-content collapse show">
-                            <div class="card-body">
-                                <div class="users-list-filter">
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-12 col-sm-6 col-lg-3">
-                                                <label for="users-list-role">Role</label>
-                                                <fieldset class="form-group">
-                                                    <select class="form-control" id="users-list-role">
-                                                        <option value="">All</option>
-                                                        <option value="user">User</option>
-                                                        <option value="staff">Staff</option>
-                                                    </select>
-                                                </fieldset>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-lg-3">
-                                                <label for="users-list-status">Status</label>
-                                                <fieldset class="form-group">
-                                                    <select class="form-control" id="users-list-status">
-                                                        <option value="">All</option>
-                                                        <option value="Active">Active</option>
-                                                        <option value="Blocked">Blocked</option>
-                                                        <option value="deactivated">Deactivated</option>
-                                                    </select>
-                                                </fieldset>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-lg-3">
-                                                <label for="users-list-verified">Verified</label>
-                                                <fieldset class="form-group">
-                                                    <select class="form-control" id="users-list-verified">
-                                                        <option value="">All</option>
-                                                        <option value="true">Yes</option>
-                                                        <option value="false">No</option>
-                                                    </select>
-                                                </fieldset>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-lg-3">
-                                                <label for="users-list-department">Department</label>
-                                                <fieldset class="form-group">
-                                                    <select class="form-control" id="users-list-department">
-                                                        <option value="">All</option>
-                                                        <option value="Sales">Sales</option>
-                                                        <option value="Devlopment">Devlopment</option>
-                                                        <option value="Management">Management</option>
-                                                    </select>
-                                                </fieldset>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
+                <!-- Statistics card section start -->
+            <div class="content-header row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-left mb-0">1st floor</h2>
                         </div>
                     </div>
-                    <!-- users filter end -->
-                    <!-- Ag Grid users list section start -->
-                    <div id="basic-examples">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="ag-grid-btns d-flex justify-content-between flex-wrap mb-1">
-                                                <div class="dropdown sort-dropdown mb-1 mb-sm-0">
-                                                    <button class="btn btn-white filter-btn dropdown-toggle border text-dark" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        1 - 20 of 50
-                                                    </button>
-                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton6">
-                                                        <a class="dropdown-item" href="#">20</a>
-                                                        <a class="dropdown-item" href="#">50</a>
-                                                    </div>
-                                                </div>
-                                                <div class="ag-btns d-flex flex-wrap">
-                                                    <input type="text" class="ag-grid-filter form-control w-50 mr-1 mb-1 mb-sm-0" id="filter-text-box" placeholder="Search...." />
-                                                    <div class="action-btns">
-                                                        <div class="btn-dropdown ">
-                                                            <div class="btn-group dropdown actions-dropodown">
-                                                                <button type="button" class="btn btn-white px-2 py-75 dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    Actions
-                                                                </button>
-                                                                <div class="dropdown-menu">
-                                                                    <a class="dropdown-item" href="#"><i class="feather icon-trash-2"></i> Delete</a>
-                                                                    <a class="dropdown-item" href="#"><i class="feather icon-clipboard"></i> Archive</a>
-                                                                    <a class="dropdown-item" href="#"><i class="feather icon-printer"></i> Print</a>
-                                                                    <a class="dropdown-item" href="#"><i class="feather icon-download"></i> CSV</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                </div>
+            </div>
+                <section id="statistics-card">
+                    <div class="row">
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-info p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
                                             </div>
                                         </div>
+                                        <h2 class="text-bold-700">200</h2>
+                                        <p class="mb-0 line-ellipsis">Double Room</p>
                                     </div>
-                                    <div id="myGrid" class="aggrid ag-theme-material"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-warning p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">287</h2>
+                                        <p class="mb-0 line-ellipsis">Single Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-danger p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">742</h2>
+                                        <p class="mb-0 line-ellipsis">Double Standard</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-primary p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">324</h2>
+                                        <p class="mb-0 line-ellipsis">Queen Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-success p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">322</h2>
+                                        <p class="mb-0 line-ellipsis">Family Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-danger p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">345</h2>
+                                        <p class="mb-0 line-ellipsis">Double Standard</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Ag Grid users list section end -->
                 </section>
-                <!-- users list ends -->
-
+                <!-- // Statistics Card section end-->
+                <!-- Statistics card section start -->
+            <div class="content-header row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-left mb-0">2nd floor</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <section id="statistics-card">
+                    <div class="row">
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-info p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">200</h2>
+                                        <p class="mb-0 line-ellipsis">Double Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-warning p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">287</h2>
+                                        <p class="mb-0 line-ellipsis">Single Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-danger p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">742</h2>
+                                        <p class="mb-0 line-ellipsis">Double Standard</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-primary p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">324</h2>
+                                        <p class="mb-0 line-ellipsis">Queen Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-success p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">322</h2>
+                                        <p class="mb-0 line-ellipsis">Family Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-4 col-sm-6">
+                            <div class="card text-center">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <div class="avatar bg-rgba-danger p-50 m-0 mb-1">
+                                            <div class="avatar-content">
+                                                <i class="fa fa-bed text-info font-medium-5" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="text-bold-700">345</h2>
+                                        <p class="mb-0 line-ellipsis">Double Standard</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- // Statistics Card section end-->
             </div>
         </div>
     </div>
@@ -476,7 +567,7 @@
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="app-assets/vendors/js/tables/ag-grid/ag-grid-community.min.noStyle.js"></script>
+    <script src="app-assets/vendors/js/charts/apexcharts.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -486,7 +577,7 @@
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <script src="app-assets/js/scripts/pages/app-user.js"></script>
+    <script src="app-assets/js/scripts/cards/card-statistics.js"></script>
     <!-- END: Page JS-->
 
 </body>
