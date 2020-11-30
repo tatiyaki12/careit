@@ -40,6 +40,8 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/dashboard-analytics.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/dashboard-ecommerce.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/card-analytics.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/app-user.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/aggrid.css">
     <!-- Datatables-->
     <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/file-uploaders/dropzone.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/pages/data-list-view.css">
