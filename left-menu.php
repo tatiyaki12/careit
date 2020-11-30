@@ -32,7 +32,7 @@
                 </li>
                 <li class=" nav-item"><a href="#"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Room Category">Room Categories</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Beds">Beds</span></a>
+                <li class=" nav-item"><a href="app-calendar.php"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Beds">Beds</span></a>
                 </li>              
                
             </ul>
