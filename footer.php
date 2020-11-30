@@ -23,6 +23,14 @@
     <script src="app-assets/vendors/js/tables/datatable/buttons.bootstrap.min.js"></script>
     <script src="app-assets/vendors/js/tables/datatable/dataTables.select.min.js"></script>
     <script src="app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+    <!-- Calendar-->
+    <script src="app-assets/vendors/js/extensions/moment.min.js"></script>
+    <script src="app-assets/vendors/js/calendar/fullcalendar.min.js"></script>
+    <script src="app-assets/vendors/js/calendar/extensions/daygrid.min.js"></script>
+    <script src="app-assets/vendors/js/calendar/extensions/timegrid.min.js"></script>
+    <script src="app-assets/vendors/js/calendar/extensions/interactions.min.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -36,4 +44,6 @@
     <script src="app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
     <!-- Datatables-->
     <script src="app-assets/js/scripts/ui/data-list-view.js"></script>
+    <!-- Calendar-->
+    <script src="app-assets/js/scripts/extensions/fullcalendar.js"></script>
     <!-- END: Page JS-->
