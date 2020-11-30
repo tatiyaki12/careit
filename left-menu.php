@@ -26,7 +26,7 @@
                 </li>
                 <li class=" nav-item"><a href="userlist.php"><i class="feather icon-users"></i><span class="menu-title" data-i18n="Users">Users</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-message-square"></i><span class="menu-title" data-i18n="Floors">Floors</span></a>
+                <li class=" nav-item"><a href="floor.php"><i class="feather icon-message-square"></i><span class="menu-title" data-i18n="Floors">Floors</span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="feather icon-check-square"></i><span class="menu-title" data-i18n="Rooms">Rooms</span></a>
                 </li>
