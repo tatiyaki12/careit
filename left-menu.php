@@ -18,7 +18,7 @@
                 </li>
                 <li class=" nav-item"><a href="roombooking.php"><i class="feather icon-file"></i><span class="menu-title" data-i18n="Room bookings">Room bookings</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-user"></i><span class="menu-title" data-i18n="Profiles">Profiles</span></a>
+                <li class=" nav-item"><a href="profile-list.php"><i class="feather icon-user"></i><span class="menu-title" data-i18n="Profiles">Profiles</span></a>
                 </li>
                 <li class=" nav-item"><a href="invoice.php"><i class="feather icon-file"></i><span class="menu-title" data-i18n="Invoice">Invoice</span></a>
                 </li>
