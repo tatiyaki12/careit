@@ -18,7 +18,7 @@
                 </li>
                 <li class=" nav-item"><a href="roombooking.php"><i class="feather icon-file"></i><span class="menu-title" data-i18n="Room bookings">Room bookings</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-user"></i><span class="menu-title" data-i18n="Profiles">Profiles</span></a>
+                <li class=" nav-item"><a href="profile-list.php"><i class="feather icon-user"></i><span class="menu-title" data-i18n="Profiles">Profiles</span></a>
                 </li>
                 <li class=" nav-item"><a href="invoice.php"><i class="feather icon-file"></i><span class="menu-title" data-i18n="Invoice">Invoice</span></a>
                 </li>
@@ -26,13 +26,13 @@
                 </li>
                 <li class=" nav-item"><a href="userlist.php"><i class="feather icon-users"></i><span class="menu-title" data-i18n="Users">Users</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-message-square"></i><span class="menu-title" data-i18n="Floors">Floors</span></a>
+                <li class=" nav-item"><a href="floor.php"><i class="feather icon-message-square"></i><span class="menu-title" data-i18n="Floors">Floors</span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="feather icon-check-square"></i><span class="menu-title" data-i18n="Rooms">Rooms</span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Room Category">Room Categories</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Beds">Beds</span></a>
+                <li class=" nav-item"><a href="app-calendar.php"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Beds">Beds</span></a>
                 </li>              
                
             </ul>
