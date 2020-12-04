@@ -28,11 +28,11 @@
                 </li>
                 <li class=" nav-item"><a href="floor.php"><i class="feather icon-message-square"></i><span class="menu-title" data-i18n="Floors">Floors</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-check-square"></i><span class="menu-title" data-i18n="Rooms">Rooms</span></a>
+                <li class=" nav-item"><a href="rooms.php"><i class="feather icon-check-square"></i><span class="menu-title" data-i18n="Rooms">Rooms</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Room Category">Room Categories</span></a>
+                <li class=" nav-item"><a href="roomcategory.php"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Room Category">Room Categories</span></a>
                 </li>
-                <li class=" nav-item"><a href="app-calendar.php"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Beds">Beds</span></a>
+                <li class=" nav-item"><a href="beds.php"><i class="feather icon-calendar"></i><span class="menu-title" data-i18n="Beds">Beds</span></a>
                 </li>              
                
             </ul>

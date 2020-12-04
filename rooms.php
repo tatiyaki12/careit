@@ -19,14 +19,14 @@
                 <div class="content-header-left col-md-9 col-12 mb-2">
                     <div class="row breadcrumbs-top">
                         <div class="col-12">
-                            <h2 class="content-header-title float-left mb-0">Room Bookings</h2>
+                            <h2 class="content-header-title float-left mb-0">Rooms</h2>
                             <div class="breadcrumb-wrapper col-12">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a>
+                                    <li class="breadcrumb-item"><a href="index.html">Settings</a>
                                     </li>
                                     <li class="breadcrumb-item"><a href="#">Data List</a>
                                     </li>
-                                    <li class="breadcrumb-item active">Room Bookings
+                                    <li class="breadcrumb-item active">Rooms
                                     </li>
                                 </ol>
                             </div>
@@ -68,10 +68,9 @@
                                 <tr>
                                     <th></th>
                                     <th>NAME</th>
+                                    <th>FLOOR</th>
                                     <th>CATEGORY</th>
-                                    <th>POPULARITY</th>
                                     <th>ORDER STATUS</th>
-                                    <th>PRICE</th>
                                     <th>ACTION</th>
                                 </tr>
                             </thead>
@@ -92,7 +91,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$69.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -114,7 +112,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$69.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -136,8 +133,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -158,7 +154,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$29.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -180,8 +175,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -202,8 +196,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -224,7 +217,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$29.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -246,7 +238,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$39.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -268,8 +259,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -290,7 +280,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$49.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -312,8 +301,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$129.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -334,8 +322,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -356,8 +343,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -378,8 +364,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$399.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -400,8 +385,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$149.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -422,7 +406,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$14.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -444,7 +427,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$99.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -466,8 +448,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$129.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -488,7 +469,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$69.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -510,8 +490,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -532,7 +511,6 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$44.99</td>
                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
@@ -554,8 +532,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="product-price">$199.99</td>
-                                    <td class="product-action">
+                                     <td class="product-action">
                                         <span class="action-edit"><i class="feather icon-edit"></i></span>
                                         <span class="action-delete"><i class="feather icon-trash"></i></span>
                                     </td>
@@ -571,7 +548,7 @@
                         <div class="add-new-data">
                             <div class="div mt-2 px-2 d-flex new-data-title justify-content-between">
                                 <div>
-                                    <h4 class="text-uppercase">List View Data</h4>
+                                    <h4 class="text-uppercase">Create Room</h4>
                                 </div>
                                 <div class="hide-data-sidebar">
                                     <i class="feather icon-x"></i>
@@ -581,42 +558,36 @@
                                 <div class="data-fields px-2 mt-3">
                                     <div class="row">
                                         <div class="col-sm-12 data-field-col">
-                                            <label for="data-name">Name</label>
+                                            <label for="data-name">Room Name</label>
                                             <input type="text" class="form-control" id="data-name">
+                                        </div>
+                                        <div class="col-sm-12 data-field-col">
+                                            <label for="data-floor">Select Floor</label>
+                                            <select class="form-control" id="data-floor">
+                                                <option>1st floor</option>
+                                                <option>2nd floor</option>
+                                            </select>
                                         </div>
                                         <div class="col-sm-12 data-field-col">
                                             <label for="data-category"> Category </label>
                                             <select class="form-control" id="data-category">
-                                                <option>Audio</option>
-                                                <option>Computers</option>
-                                                <option>Fitness</option>
-                                                <option>Appliance</option>
+                                                <option>Single</option>
+                                                <option>Double</option>
                                             </select>
                                         </div>
                                         <div class="col-sm-12 data-field-col">
-                                            <label for="data-status">Order Status</label>
+                                            <label for="data-status">Status</label>
                                             <select class="form-control" id="data-status">
-                                                <option>Pending</option>
-                                                <option>Canceled</option>
-                                                <option>Delivered</option>
-                                                <option>On Hold</option>
+                                                <option>Full</option>
+                                                <option>Available</option>
                                             </select>
-                                        </div>
-                                        <div class="col-sm-12 data-field-col">
-                                            <label for="data-price">Price</label>
-                                            <input type="text" class="form-control" id="data-price">
-                                        </div>
-                                        <div class="col-sm-12 data-field-col data-list-upload">
-                                            <form action="#" class="dropzone dropzone-area" id="dataListUpload">
-                                                <div class="dz-message">Upload Image</div>
-                                            </form>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="add-data-footer d-flex justify-content-around px-3 mt-2">
                                 <div class="add-data-btn">
-                                    <button class="btn btn-primary">Add Data</button>
+                                    <button class="btn btn-primary">Save</button>
                                 </div>
                                 <div class="cancel-data-btn">
                                     <button class="btn btn-outline-danger">Cancel</button>
