@@ -29,7 +29,7 @@
                                             <i class="feather icon-users text-primary font-medium-5"></i>
                                         </div>
                                     </div>
-                                    <h2 class="text-bold-700 mt-1">92.6k</h2>
+                                    <h2 class="text-bold-700 mt-1">20</h2>
                                     <p class="mb-0">Today's Appointment</p>
                                 </div>
                                 <div class="card-content">
@@ -45,7 +45,7 @@
                                             <i class="feather icon-credit-card text-success font-medium-5"></i>
                                         </div>
                                     </div>
-                                    <h2 class="text-bold-700 mt-1">97.5k</h2>
+                                    <h2 class="text-bold-700 mt-1">$12,029 (20)</h2>
                                     <p class="mb-0">Pending Invoice</p>
                                 </div>
                                 <div class="card-content">
@@ -61,7 +61,7 @@
                                             <i class="feather icon-users text-primary font-medium-5"></i>
                                         </div>
                                     </div>
-                                    <h2 class="text-bold-700 mt-1 mb-25">92.6k</h2>
+                                    <h2 class="text-bold-700 mt-1 mb-25">20</h2>
                                     <p class="mb-0">Room's Available</p>
                                 </div>
                                 <div class="card-content">
@@ -77,7 +77,7 @@
                                             <i class="feather icon-package text-warning font-medium-5"></i>
                                         </div>
                                     </div>
-                                    <h2 class="text-bold-700 mt-1 mb-25">97.5K</h2>
+                                    <h2 class="text-bold-700 mt-1 mb-25">3</h2>
                                     <p class="mb-0">On duty Doctors</p>
                                 </div>
                                 <div class="card-content">
@@ -120,7 +120,7 @@
                                         <hr />
                                         <div class="row avg-sessions pt-50">
                                             <div class="col-6">
-                                                <p class="mb-0">Goal: $100000</p>
+                                                <p class="mb-0">Total Invoice: $100000</p>
                                                 <div class="progress progress-bar-primary mt-25">
                                                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="50" aria-valuemax="100" style="width:50%"></div>
                                                 </div>
